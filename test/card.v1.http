@@ -1,0 +1,28 @@
+@base = http://localhost:8080/api/tickets/v1/card
+
+GET  {{base}}/pending_count
+content-type: application/json
+
+{}
+
+###
+GET  {{base}}/pending_count
+content-type: application/json
+
+{
+    "id":3
+}
+
+###
+GET  {{base}}/waiting_time
+content-type: application/json
+
+{}
+
+###
+GET  {{base}}/service_time
+content-type: application/json
+
+{}
+
+###
